@@ -8,5 +8,5 @@ do
 	echo ${originalName}
 	echo ${linkedName}
 	
-	ln ${originalName} ${linkedName}
+	ln -s ${originalName} ${linkedName}
 done
